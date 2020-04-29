@@ -1,5 +1,7 @@
 # AP-Computer-Science-A-Notes
 Contains my notes on various AP Computer Science A topics.
+As such, they are mostly commented-out notes with many Java examples.
+These notes are based off of the UC Scouts curriculum.
 
 Currently includes the following topics:
 
