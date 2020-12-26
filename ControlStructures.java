@@ -10,7 +10,7 @@ public class ControlStructures {
   public static void main(String[] args) { 
     
     // Lesson 05.03. Control Structures: Conditionals (if), loops (while)
-    // Also, printing to Terminal, console, etc??? Get used to this??
+    // Also, printing to Terminal, console, etc? Get used to this?
     
     // Using "else":
     
@@ -18,13 +18,12 @@ public class ControlStructures {
     
     // I really wanted to use random numbers even if they weren't in the lesson 
     // So I did a bit of googling
-    // fight me
     
     Random rand = new Random();
     int numGrade = rand.nextInt(101);
       
     if(numGrade < 90) {
-      passFail = "Fail"; } // Asian fail
+      passFail = "Fail"; } 
     else {
       passFail = "Pass"; }
     
