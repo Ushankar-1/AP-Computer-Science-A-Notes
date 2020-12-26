@@ -40,15 +40,15 @@ public class Strings {
     
     // Back on topic: A different, simpler method of concatenation!
     
-    String c = "\n~But I would walk five hundred- ";
-    String d = "Dogs!\n";
+    String c = "\n~But I would walk five hundred ";
+    String d = "miles\n";
     
     System.out.println(c += d);
     
     // You don't even need to use just strings! Most things will work fine! Like int!
     // Just omit the =.
     
-    String words = ". That's how many regrets I have in my life.";
+    String words = ". That's how many dollars I have.";
       
     Random rand = new Random();
     int randNumber = rand.nextInt(9999);
@@ -70,7 +70,7 @@ public class Strings {
     
     // Because of order of operations, p much ANYTHING grouping the ints together works!
     
-    String yodaMoney = " dollars, I will soon have. Yoda, I am.";
+    String yodaMoney = " dollars is how much I will soon have.";
     System.out.println(cash + paycheck + yodaMoney);
     
     // This works because both int variables are together, so they're added properly!
@@ -94,7 +94,7 @@ public class Strings {
       System.out.println("The correct answer was... "+correctAnsr+"!\n");
     }
     else {
-      System.out.println("\nCORRECT! Ooh, and with the exact capitalization, spelling, and spacing as per");
+      System.out.println("\nCORRECT, and with the exact capitalization, spelling, and spacing as per");
       System.out.println("the .equals() method! Here's your prize!\n");
     }
     
@@ -111,16 +111,16 @@ public class Strings {
     System.out.println("Enter your name.");
     yourName = scan.nextLine();
     
-    System.out.println("Enter the name of your friend. Or enemy. I don't care who.");
+    System.out.println("Enter the name of your friend.");
     theirName = scan.nextLine();
     
     int whosBetter = yourName.compareTo(theirName);
     
     if(whosBetter > 0) {
-      System.out.println("\nMathematically, you are greater than your friend/enemy/person.");
+      System.out.println("\nMathematically, you are greater than your friend.");
     }
     else if(whosBetter < 0) {
-      System.out.println("\nMathematically, your friend/enemy/person is greater than you.");
+      System.out.println("\nMathematically, your friend is greater than you.");
     }
     else {
       System.out.println("\nHmmm. An odd case. It appears that the two of you are exactly equal in greatness.");
@@ -140,7 +140,6 @@ public class Strings {
     
     if(position == -1) {
       System.out.println("There is no '"+yourPhrase+"' in '"+yourWord+"'.");
-      System.out.println("I suppose that this means that you are the '"+yourPhrase+"' in '"+yourWord+"'.");
     }
     else {
     System.out.println("The string '"+yourPhrase+"' can first be found at letter "+(position+1)+" of your word.");
