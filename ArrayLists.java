@@ -20,8 +20,7 @@ public class ArrayLists {
     //ex:
     
     ArrayList<String> knittingList = new ArrayList<String>(4);
-    // Didn't seem to work until I imported??? I thought it was inbuilt???
-    // Wait nvm it's not in java.lang. I blame the video.
+    // Didn't seem to work until I imported? Never mind, it's not in java.lang.
     
     // YOU WILL *NOT* NEED IMPORT STATEMENTS ON THE AP EXAM.
     
@@ -85,10 +84,9 @@ public class ArrayLists {
     // This method deletes the object at the specified index, and everything after it moves
     // down one index.
     
-    // For example, if you had four creepy beetles that make loud clicking noises, just like 
-    // the apparently waterproof one I found this morning, and if you vaporized the second
-    // one, now you would only have 3 beetles, the first would still be the first, but the
-    // old third one would now be second and the old fourth one woul now be third. See?
+    // For example, if you had four rocks, and threw out the second one, now you would 
+    // only have 3 rocks, the first would still be the first, but the old third one 
+    // would now be second and the old fourth one would now be third. See?
     
     String refLocEmpty = knittingList.remove(2);
     
@@ -104,21 +102,19 @@ public class ArrayLists {
     // It replaces the object at the specified index with E object
     // AND, it returns the reference of the object that got replaced! It's not gone forever!
     
-    refLocEmpty = knittingList.set(2, "I can stab someone's eyes out.");
+    refLocEmpty = knittingList.set(2, "I can make breakfast.");
     refLocEmpty = knittingList.set(3, "I can make mittens.");   
     
     // Both of those were empty so refLocEmpty still points at... nothing.
     
     System.out.println(refLocEmpty);
-    
-    // And now, for the final meme:
 
     System.out.println("You have got to love knitting needles!");
     for (String listItem : knittingList) {
       System.out.println(listItem); }
     // Keep in mind that the temporary variable must be the same datatype as the AL stuff!
     
-    System.out.println("\nUhh... what was that middle part???\n");
+    System.out.println("\nUhh... what was that middle part?\n");
     
     int midNum = 1;
     String middle = knittingList.get(midNum);
