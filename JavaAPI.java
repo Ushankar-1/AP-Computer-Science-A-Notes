@@ -3,8 +3,7 @@ import java.lang.Math;
 import java.lang.Integer;
 import java.lang.Double;
 
-// Done in steps between 7/7/19 and 7/23/19. (sobs)
-// I'm actually going to kill myself if I screw up this much again
+// Done in steps between 7/7/19 and 7/23/19.
 
 public class JavaAPI {
   
