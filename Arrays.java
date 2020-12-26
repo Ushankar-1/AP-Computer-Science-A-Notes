@@ -18,7 +18,7 @@ public class Arrays {
     
     // You can declare and initialize an array in one line of code: the array initializer.
     
-    String[] superTeam = {"Friendship", "Harmony", "Incredible Violence", "Love"};
+    String[] superTeam = {"Friendship", "Harmony", "Peace", "Love"};
     
     // The square brackets [] tell the computer that this variable references an array!
     
